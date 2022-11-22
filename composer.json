@@ -1,0 +1,24 @@
+{
+    "name": "retmix/collect",
+    "description": "Learn",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RetmixX",
+            "email": "jameslayng123@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
